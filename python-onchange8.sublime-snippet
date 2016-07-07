@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+@api.onchange('invoice_line_ids')
+def ${1:_onchange_invoice_line_ids}(self):
+    ${2:self.tax_line_ids = tax_lines}
+    return
+]]></content>
+<tabTrigger>onchange8</tabTrigger>
+<scope>source.python</scope>
+</snippet>

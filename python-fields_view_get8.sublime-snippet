@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+@api.model
+def fields_view_get(self, view_id=None, view_type=False, toolbar=False, submenu=False):
+
+    return super(${1:AccountInvoice}, self).fields_view_get(view_id=view_id, view_type=view_type, toolbar=toolbar, submenu=submenu)
+]]></content>
+<tabTrigger>fields_view_get8</tabTrigger>
+<scope>source.python</scope>
+</snippet>

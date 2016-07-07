@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+@api.model
+def create(self, vals):
+    ${1:invoice} = super(${2:AccountInvoice}, self).create(vals)
+
+    return ${3:invoice}
+]]></content>
+<tabTrigger>create8</tabTrigger>
+<scope>source.python</scope>
+</snippet>

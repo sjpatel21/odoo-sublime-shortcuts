@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+@api.multi
+def write(self, vals):
+    ${1:invoice} = super(${2:AccountInvoice}, self).write(vals)
+
+    return ${3:invoice}
+]]></content>
+<tabTrigger>write8</tabTrigger>
+<scope>source.python</scope>
+</snippet>

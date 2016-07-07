@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+@api.multi
+def name_get(self):
+    #return super(AccountInvoice, self).name_get()
+    result = []
+    for inv in self:
+        result.append((inv.id, "%s %s" % (inv.number or TYPES[inv.type], inv.name or '')))
+    return result
+]]></content>
+<tabTrigger>name_get8</tabTrigger>
+<scope>source.python</scope>
+</snippet>

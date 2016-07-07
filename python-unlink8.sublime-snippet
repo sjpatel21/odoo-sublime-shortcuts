@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+@api.multi
+def unlink(self):
+
+    return super(${1:AccountInvoice}, self).unlink()
+]]></content>
+<tabTrigger>unlink8</tabTrigger>
+<scope>source.python</scope>
+</snippet>
